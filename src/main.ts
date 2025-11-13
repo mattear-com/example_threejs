@@ -22,7 +22,7 @@ import {
   MeshStandardMaterial,  
   AdditiveBlending,      
 } from 'three'
-import { GLTFLoader } from 'three/examples/jsm/Addons.js'
+import { GLTFLoader , type GLTF} from 'three/examples/jsm/Addons.js'
 import { FontLoader } from 'three/examples/jsm/loaders/FontLoader.js'
 import { TextGeometry } from 'three/examples/jsm/geometries/TextGeometry.js'
 import { EffectComposer } from 'three/examples/jsm/postprocessing/EffectComposer.js'
@@ -310,7 +310,7 @@ class App {
           color: 0x00ffff,        
           emissive: 0x00ffff,       
           emissiveIntensity: .75, 
-          metalness: 0.1,           
+          metalness: 0.1,            
           roughness: 0.4            
         })
         
