@@ -1,32 +1,29 @@
-<!doctype html>
-<html lang="es">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/example_threejs/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>space</title>
-    <script type="module" crossorigin src="/example_threejs/assets/index-Cvq85iFg.js"></script>
-    <link rel="stylesheet" crossorigin href="/example_threejs/assets/index-a7fVc9xJ.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>Space Shooter 3D</title>
+    <script type="module" crossorigin src="/example_threejs/assets/index-Eg4mUK3c.js"></script>
+    <link rel="stylesheet" crossorigin href="/example_threejs/assets/index-BDTuCsYT.css">
   </head>
   <body>
+    <canvas id="canvas"></canvas>
 
+    <div id="ui">
+      <div id="score-container">SCORE: <span id="score">0</span></div>
+    </div>
 
-<body>
-<body>
-  <canvas id="canvas"></canvas>
+    <div id="start-menu">
+      <h1>MATTEAR</h1>
+      <p>Usa controles táctiles o teclado</p>
+      <button id="start-button">START MISSION</button>
+    </div>
 
-  <div id="start-menu">
-    <button id="start-button">START GAME</button>
-  </div>
+    <div id="game-over">
+      <h1>GAME OVER</h1>
+      <button id="restart-button">TRY AGAIN</button>
+    </div>
 
-  <div id="ui">
-    Puntuación: <span id="score">0</span>
-  </div>
-
-  <div id="game-over">
-    <h1>GAME OVER</h1>
-    <button id="restart-button">RESTART</button>
-  </div>
-
-</body>
+  </body>
 </html>
