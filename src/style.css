@@ -1,0 +1,77 @@
+/* Reinicio básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo oscuro para el efecto neón */
+body {
+  background-color: #000;
+}
+
+#canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+/* Menús superpuestos */
+#start-menu, #game-over {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
+  display: flex; /* Usamos flex para centrar */
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+/* Ocultar la pantalla de Game Over al inicio */
+#game-over {
+  display: none;
+}
+
+h1 {
+  font-size: 72px;
+  color: red;
+  text-shadow: 0 0 15px red; /* Efecto neón simple para el texto 2D */
+}
+
+/* Estilo de botones */
+button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #333;
+  color: #00ffff; /* Color cian neón */
+  border: 2px solid #00ffff;
+  border-radius: 5px;
+  cursor: pointer;
+  text-shadow: 0 0 10px #00ffff;
+  box-shadow: 0 0 15px #00ffff;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #00ffff;
+  color: #000;
+  box-shadow: 0 0 25px #00ffff, 0 0 50px #00ffff;
+}
+
+/* Interfaz de Puntuación */
+#ui {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  color: #00ffff; /* Color neón */
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  z-index: 99;
+  text-shadow: 0 0 10px #00ffff;
+}
