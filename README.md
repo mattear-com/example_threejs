@@ -9,6 +9,9 @@ Un juego de disparos espacial estilo arcade desarrollado con **Three.js** y **Ty
 
 ![Screenshot del Juego](public/screenshot.png)
 
+### 🕹️ [¡JUGAR AHORA (LIVE DEMO)!](https://mattear-com.github.io/example_threejs/) 👈
+
+
 ## ✨ Características
 
 * **Motor 3D:** Renderizado performante utilizando WebGL a través de Three.js.
@@ -74,3 +77,4 @@ Para generar los archivos optimizados para subir a un hosting (Vercel, Netlify, 
 
 ```bash
 npm run build
+```
